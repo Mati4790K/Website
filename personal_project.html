@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Personal Project</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+		<link rel="stylesheet" type="text/css" href="styling.css">
+	
+	</head>
+	<body>
+
+		<div class="logo-image-project">
+		<div class="navi">
+			<nav>
+				<ul class="navtop">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="photography.html">Photography Society</a></li>
+				  <li><a href="global_lounge.html">Global Lounge</a></li>
+				  <li><a class="active" href="personal_project.html">Personal Project</a></li>
+				  <li><a href="about_me.html">About me</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		  <div class="logo-text">
+			<h1 style="font-size:60px; text-align: center;">Personal Project</h1>
+		  </div>
+		</div>
+
+		<div class="navi_mobile">
+			<nav>
+				<ul class="navtop">
+				  <li><a class="active" href="index.html">Home</a></li>
+				  <li><a href="photography.html">Photography Society</a></li>
+				  <li><a href="global_lounge.html">Global Lounge</a></li>
+				  <li><a href="personal_project.html">Personal Project</a></li>
+				  <li><a href="about_me.html">About me</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div class="progress-container">
+			<div class="progress-bar" id="myBar"></div>
+		</div>
+
+		<div class="all">
+		  <h1>Personal Project</h1>
+		  <p>Last year I started doing a computer game. This is a tower defense strategy game, where user has to use different towers and strategies to win the game. 
+		  I really liked the game and I keep working on it.</p>
+		  <p>Since September I added a lot of different features to my game e.g. I added main menu for the game, where player can 
+		  visit options menu, credits menu, exit the game or play the game. Firt photo from the left shows the main menu, second photo shows options menu, third 
+		  photo shows credits menu, and last photo shows game over screen when I lost all my lives while playing the game.</p>
+		  
+		  <div class="responsivness4">
+				<div class="gallery">		
+					  <img src="images/pp1.jpg" alt="Main menu" title="Main menu">	
+				</div>
+			</div>
+			
+			<div class="responsivness4">
+				<div class="gallery">		
+					  <img src="images/pp2.jpg" alt="Options menu" title="Options menu">	
+				</div>
+			</div>
+			
+			<div class="responsivness4">
+				<div class="gallery">		
+					  <img src="images/pp3.jpg" alt="Credits menu" title="Credits menu">	
+				</div>
+			</div>
+			
+			<div class="responsivness4">
+				<div class="gallery">		
+					  <img src="images/pp4.jpg" alt="Game over screen" title="Game over screen">	
+				</div>
+			</div>
+			
+			<div class="clearfix"></div>
+		  <br>
+		  <p style="margin-bottom:27px;">I use Unity game engine (first photo from left) to create my game and I create all 3D assets by myself using Blender 3D editing software (second photo from left).</p>
+			<div class="responsivness2">
+				<div class="gallery">		
+					  <img src="images/pp5.jpg" alt="Unity engine" title="Unity engine">	
+				</div>
+			</div>
+			
+			<div class="responsivness2">
+				<div class="gallery">		
+					  <img src="images/pp6.jpg" alt="Blender 3D editing software" title="Blender 3D editing software">	
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<br>
+		
+		
+
+		<footer>
+			Created by: Mateusz Krawczyk | Copyright © 2019
+		</footer>
+		
+		<script>
+			// When the user scrolls the page, execute myFunction 
+			window.onscroll = function() {myFunction()};
+
+			function myFunction() {
+			  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			  var scrolled = (winScroll / height) * 100;
+			  document.getElementById("myBar").style.width = scrolled + "%";
+			}
+		</script>
+	</body>
+</html>
